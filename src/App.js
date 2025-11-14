@@ -37,7 +37,7 @@ const App = () => {
         cheatValue={6}
         style={{ width: "100%", height: "100%" }}
         onRoll={handleRoll}
-        size={290}
+        size={200}
         rollingTime={3000}
       />
     </div>
