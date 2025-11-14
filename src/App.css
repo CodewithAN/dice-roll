@@ -5,8 +5,3 @@
 ._space3d .defaultFace span {
   box-shadow: unset !important;
 }
-
-._space3d .defaultFace {
-  box-shadow: unset !important;
-  border: 2px solid black !important;
-}
