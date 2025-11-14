@@ -25,13 +25,22 @@ const App = () => {
   };
 
   return (
-    <Dice
-      cheatValue={6}
-      style={{ width: "100%", height: "100%" }}
-      onRoll={handleRoll}
-      size={250}
-      rollingTime={3000}
-    />
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+      }}
+    >
+      <Dice
+        cheatValue={6}
+        style={{ width: "100%", height: "100%" }}
+        onRoll={handleRoll}
+        size={290}
+        rollingTime={3000}
+      />
+    </div>
   );
 };
 
