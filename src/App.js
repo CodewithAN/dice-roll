@@ -1,5 +1,6 @@
 import Dice from "react-dice-roll";
 import { useEffect } from "react";
+import "./App.css";
 
 const App = () => {
   useEffect(() => {
@@ -33,13 +34,7 @@ const App = () => {
         height: "100vh",
       }}
     >
-      <Dice
-        cheatValue={6}
-        style={{ width: "100%", height: "100%" }}
-        onRoll={handleRoll}
-        size={200}
-        rollingTime={3000}
-      />
+      <Dice cheatValue={6} onRoll={handleRoll} size={210} rollingTime={3000} />
     </div>
   );
 };
